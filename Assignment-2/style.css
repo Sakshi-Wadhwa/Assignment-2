@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    background-color:lightblue;
+    text-align: center;
+    margin-top: 0em;
+    
+    overflow-y:auto;
+    overflow-x: hidden;
+   
+}
+.title{
+    background-color:#590d22;
+    height: 8vh;
+    text-align: center;
+   
+    position: fixed;
+    width: inherit;
+    z-index: 1;
+}
+.title span{
+  color:ivory;
+  font-family: 'Dancing Script', cursive; 
+  line-height: 3rem;
+  font-weight: 900;
+  font-size: 2em;
+  
+}
+
+.list{
+    margin-top: 10px;
+}
+dt{
+    background:#ff7096;
+    height: 10vh;
+    position: sticky;
+    top:45px;
+    font-weight: bold;
+
+}
+
+dt span{
+  color: white;
+  font-size: 2rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+dd{
+  letter-spacing: 0.1em;
+  line-height: 3rem;
+  font-weight:bolder;
+  font-family: 'Architects Daughter', cursive;
+}
+li{
+  list-style-type:none;
+  
+}
+dd::before{
+  content: "📱";
+  letter-spacing: 1em;
+
+}
+
